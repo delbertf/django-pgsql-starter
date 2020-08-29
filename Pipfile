@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pre-commit = "*"
+pytest-django = "*"
+flake8 = "*"
+
+[packages]
+django = "3.1"
+dj-database-url = "*"
+conversion = "*"
+psycopg2-binary = "*"
+django-command-overrides = "*"
+django-environ = "*"
+
+[requires]
+python_version = "3.8"
